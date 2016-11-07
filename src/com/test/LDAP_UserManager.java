@@ -16,9 +16,17 @@ public class LDAP_UserManager
 {
 	public static void main(String[] args)
 	{
-		String password = "Welcome2k";
-		String dn = "CN=Zsigmond Rab,CN=Users,DC=mydomain,DC=com";
-		String ldapURL = "ldap://192.168.119.132:389";
+		// ZsigmondPC:
+//		String password = "Welcome2k";
+//		String dn = "CN=Zsigmond Rab,CN=Users,DC=mydomain,DC=com";
+//		String ldapURL = "ldap://192.168.119.132:389";
+		
+		// liferay-b5u8fox:
+		String dn = "CN=Administrator,CN=Users,DC=mydomain,DC=com";
+		String password = "TestTest12345";
+		String ldapURL = "ldap://192.168.226.159:389";
+		
+		
 
 		// Setup environment for authenticating
 		
